@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Лайк — барбершоп у Полтаві</title>
+<title>Лайк — твоя перукарня в Полтаві</title>
 <meta name="description" content="Барбершоп «Лайк», Полтава — онлайн-запис, Instagram та наші локації.">
 
 <script src="https://cdn.tailwindcss.com"></script>
@@ -52,7 +52,7 @@
 
   .scallop-bottom {
     width: 100%;
-    height: 22px;
+    height: 18px;
     display: block;
     transform: rotate(180deg);
   }
@@ -78,10 +78,10 @@
 
 <div class="max-w-md mx-auto min-h-screen bg-paper shadow-[0_0_60px_rgba(0,0,0,0.04)] overflow-hidden">
 
-  <!-- 1. HERO (Тільки логотип на білому фоні) -->
-  <header class="relative bg-white pt-6 pb-6 px-6 text-center rise">
+  <!-- 1. HERO (Лого в самий верх, збільшене, мінімум відступів) -->
+  <header class="relative bg-white pt-4 pb-3 px-6 text-center rise">
     <div class="flex justify-center items-center">
-      <img src="logo.png" alt="Лайк логотип" class="w-24 h-24 object-contain">
+      <img src="logo.png" alt="Лайк логотип" class="w-36 h-auto object-contain">
     </div>
   </header>
 
@@ -99,7 +99,7 @@
   </svg>
 
   <!-- 2. ONLINE BOOKING -->
-  <section class="bg-sage-50 px-6 py-10 text-center rise">
+  <section class="bg-sage-50 px-6 py-8 text-center rise">
     <h2 class="font-display text-2xl mb-3">Записатися онлайн</h2>
     <p class="font-body text-sm text-inkmuted leading-relaxed max-w-[28ch] mx-auto mb-6">
       Обери майстра, час і день — місце в кріслі буде чекати саме на тебе.
@@ -132,7 +132,7 @@
   </svg>
 
   <!-- 3. SOCIAL (Instagram) -->
-  <section class="bg-lav-50 px-6 py-10 text-center rise">
+  <section class="bg-lav-50 px-6 py-8 text-center rise">
     <h2 class="font-display text-2xl mb-3">Ми в Instagram</h2>
     <p class="font-body text-sm text-inkmuted leading-relaxed max-w-[28ch] mx-auto mb-6">
       Роботи майстрів, атмосфера барбершопу й анонси — все тут.
@@ -163,17 +163,17 @@
   </svg>
 
   <!-- 4. REVIEWS (6 круглих віконечок для 6 локацій) -->
-  <section class="bg-sage-50 px-6 py-10 text-center rise">
+  <section class="bg-sage-50 px-6 py-8 text-center rise">
     <h2 class="font-display text-2xl mb-3">Твоя думка важлива</h2>
-    <p class="font-body text-sm text-inkmuted leading-relaxed max-w-[30ch] mx-auto mb-6">
+    <p class="font-body text-sm text-inkmuted leading-relaxed max-w-[30ch] mx-auto mb-5">
       Обери свою локацію та залиш відгук у Google. Це займе хвилину!
     </p>
 
     <!-- 6 круглих віконечок -->
-    <div class="grid grid-cols-3 gap-4 max-w-xs mx-auto">
+    <div class="grid grid-cols-3 gap-3.5 max-w-xs mx-auto">
       <!-- Локація 1 -->
       <a href="#" target="_blank" rel="noopener" class="group flex flex-col items-center gap-1.5">
-        <div class="w-16 h-16 rounded-full bg-white border border-sage-300 flex items-center justify-center shadow-sm group-hover:bg-sage-600 group-hover:text-white transition">
+        <div class="w-15 h-15 rounded-full bg-white border border-sage-300 flex items-center justify-center shadow-sm group-hover:bg-sage-600 group-hover:text-white transition" style="width: 58px; height: 58px;">
           <span class="font-display font-semibold text-sm">#1</span>
         </div>
         <span class="text-[11px] text-inkmuted font-medium leading-tight">Європейська</span>
@@ -181,7 +181,7 @@
 
       <!-- Локація 2 -->
       <a href="#" target="_blank" rel="noopener" class="group flex flex-col items-center gap-1.5">
-        <div class="w-16 h-16 rounded-full bg-white border border-sage-300 flex items-center justify-center shadow-sm group-hover:bg-sage-600 group-hover:text-white transition">
+        <div class="rounded-full bg-white border border-sage-300 flex items-center justify-center shadow-sm group-hover:bg-sage-600 group-hover:text-white transition" style="width: 58px; height: 58px;">
           <span class="font-display font-semibold text-sm">#2</span>
         </div>
         <span class="text-[11px] text-inkmuted font-medium leading-tight">Зіньківська</span>
@@ -189,7 +189,7 @@
 
       <!-- Локація 3 -->
       <a href="#" target="_blank" rel="noopener" class="group flex flex-col items-center gap-1.5">
-        <div class="w-16 h-16 rounded-full bg-white border border-sage-300 flex items-center justify-center shadow-sm group-hover:bg-sage-600 group-hover:text-white transition">
+        <div class="rounded-full bg-white border border-sage-300 flex items-center justify-center shadow-sm group-hover:bg-sage-600 group-hover:text-white transition" style="width: 58px; height: 58px;">
           <span class="font-display font-semibold text-sm">#3</span>
         </div>
         <span class="text-[11px] text-inkmuted font-medium leading-tight">І. Мазепи</span>
@@ -197,7 +197,7 @@
 
       <!-- Локація 4 -->
       <a href="#" target="_blank" rel="noopener" class="group flex flex-col items-center gap-1.5">
-        <div class="w-16 h-16 rounded-full bg-white border border-sage-300 flex items-center justify-center shadow-sm group-hover:bg-sage-600 group-hover:text-white transition">
+        <div class="rounded-full bg-white border border-sage-300 flex items-center justify-center shadow-sm group-hover:bg-sage-600 group-hover:text-white transition" style="width: 58px; height: 58px;">
           <span class="font-display font-semibold text-sm">#4</span>
         </div>
         <span class="text-[11px] text-inkmuted font-medium leading-tight">Хмельницького</span>
@@ -205,7 +205,7 @@
 
       <!-- Локація 5 -->
       <a href="#" target="_blank" rel="noopener" class="group flex flex-col items-center gap-1.5">
-        <div class="w-16 h-16 rounded-full bg-white border border-sage-300 flex items-center justify-center shadow-sm group-hover:bg-sage-600 group-hover:text-white transition">
+        <div class="rounded-full bg-white border border-sage-300 flex items-center justify-center shadow-sm group-hover:bg-sage-600 group-hover:text-white transition" style="width: 58px; height: 58px;">
           <span class="font-display font-semibold text-sm">#5</span>
         </div>
         <span class="text-[11px] text-inkmuted font-medium leading-tight">Полтавська</span>
@@ -213,7 +213,7 @@
 
       <!-- Локація 6 -->
       <a href="#" target="_blank" rel="noopener" class="group flex flex-col items-center gap-1.5">
-        <div class="w-16 h-16 rounded-full bg-white border border-sage-300 flex items-center justify-center shadow-sm group-hover:bg-sage-600 group-hover:text-white transition">
+        <div class="rounded-full bg-white border border-sage-300 flex items-center justify-center shadow-sm group-hover:bg-sage-600 group-hover:text-white transition" style="width: 58px; height: 58px;">
           <span class="font-display font-semibold text-sm">#6</span>
         </div>
         <span class="text-[11px] text-inkmuted font-medium leading-tight">Чорновола</span>
@@ -222,10 +222,10 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="bg-ink px-6 py-9 text-center text-white">
-    <p class="font-display text-xl mb-4">Лайк · Мережа барбершопів</p>
+  <footer class="bg-ink px-6 py-8 text-center text-white">
+    <p class="font-display text-xl mb-3">Лайк · Мережа барбершопів</p>
     
-    <div class="font-body text-xs text-white/70 space-y-2 mb-6 text-left max-w-xs mx-auto">
+    <div class="font-body text-xs text-white/70 space-y-2 mb-5 text-left max-w-xs mx-auto">
       <div class="flex justify-between border-b border-white/10 pb-1.5">
         <span>вул. Європейська, 28</span>
         <span class="text-white font-medium">08:00–18:00</span>
